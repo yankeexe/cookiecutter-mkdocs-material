@@ -1,7 +1,7 @@
 # {{cookiecutter.documentation_name}}
 
 
-> Note: [MKDocs Documentation](https://squidfunk.github.io/mkdocs-material/getting-started/)
+> [MKDocs Documentation](https://squidfunk.github.io/mkdocs-material/getting-started/)
 
 
 ## Usage

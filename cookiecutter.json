@@ -1,0 +1,5 @@
+{
+    "project_name": "MK Docs Material Cookiecutter",
+    "documentation_name": "Awesome Docs",
+    "project_slug": "{{cookiecutter.project_name.strip().lower().replace(' ', '_').replace('-', '_')}}",
+}

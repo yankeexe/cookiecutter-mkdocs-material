@@ -1,0 +1,47 @@
+site_name: {{cookiecutter.documentation_name}}
+
+theme:
+  name: material
+  logo: "assets/logo.png"
+  features:
+    - navigation.instant
+  palette:
+    primary: white
+    accent: blue
+
+nav:
+  - Overview:
+    - Introduction: index.md
+  - Backend:
+    - Test Documentation: ./backend/index.md
+    - Auth: ./backend/auth.md
+  - Frontend:
+    - Test Documentation: ./frontend/index.md
+
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
